@@ -14,7 +14,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.Bean;
 
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class })
-@MapperScan("com.neo.mapper")
+@MapperScan("com.sintwo.backendapi.db.mapper")
 public class Application extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
